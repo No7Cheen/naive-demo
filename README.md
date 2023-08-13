@@ -21,26 +21,39 @@ If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has a
 
 See [Vite Configuration Reference](https://vitejs.dev/config/).
 
-## Project Setup
+## 使用
 
-```sh
-npm install
+- 获取代码
+
+```bash
+git clone git@github.com:No7Cheen/naive-demo.git
 ```
 
-### Compile and Hot-Reload for Development
+- 安装依赖
+
+```sh
+cd naive-demo
+
+pnpm install
+```
+
+- 格式化
+
+```sh
+npm run format
+# npm run lint
+```
+
+- 运行
 
 ```sh
 npm run dev
 ```
 
-### Type-Check, Compile and Minify for Production
+- 打包
 
 ```sh
 npm run build
 ```
 
-### Lint with [ESLint](https://eslint.org/)
 
-```sh
-npm run lint
-```
